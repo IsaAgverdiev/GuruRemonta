@@ -231,7 +231,7 @@ p {
   width: 100%;
 }
 
-.firstscreen__wrapper .bg-images {
+.firstscreen__wrapper .bg-image {
   background: url("../images/bg-firstscreen.jpg") 0 0/100% auto no-repeat;
   width: 100%;
   height: 100%;
