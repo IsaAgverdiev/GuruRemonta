@@ -329,11 +329,11 @@ p {
 
 .firstscreen__wrapper .photo-preview {
   height: 229px;
-  max-width: 650px;
+  max-width: 700px;
 }
 
 .firstscreen__wrapper .photo-preview img:not(:first-child) {
-  margin-left: 40px;
+  margin-left: 50px;
   max-width: 182px;
   height: 229px;
 }
@@ -815,6 +815,9 @@ p {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   padding-top: 30px;
   color: #8199A3;
   font-size: 14px;
@@ -825,9 +828,9 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: 'Chicago-Regular';
   font-size: 20px;
   font-weight: 700;
