@@ -62,6 +62,7 @@
 				.contacts__item {
 					display: flex;
 					flex-direction: column;
+					line-height: 178%;
 				}
 
 				.contacts__item-social {
@@ -111,6 +112,24 @@
 		color: #8199A3;
 		font-size: 14px;
 		font-weight: 700;
+
+		&-copyright {
+			display: flex;
+			align-items: flex-end;
+			font-family: 'Chicago-Regular';
+			font-size: 20px;
+			font-weight: 700;
+			line-height: 100%;
+			letter-spacing: 1px;
+
+			& img {
+				margin-right: 4px;
+			}
+
+			&.light {
+				font-weight: 400px;
+			}
+		}
 
 		&-form {
 			margin-left: 199px;
