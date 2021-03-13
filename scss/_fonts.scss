@@ -1,0 +1,16 @@
+@font-face {
+	font-family: 'Chicago';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Chicago'),
+		url(../fonts/Chicago.ttf);
+}
+
+@font-face {
+	font-family: 'Chicago-Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Chicago-Regular'),
+		url(../fonts/Chicago-Regular.ttf),
+		url(../fonts/Chicago-Regular.eot);
+}

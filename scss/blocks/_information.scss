@@ -1,0 +1,44 @@
+.information {
+	&__wrapper {
+		margin: 91px 0 80px 0;
+		width: 100%;
+		padding: 20px;
+		background-color: #8199A3;
+	}
+
+	&__inner {
+		padding: 44px 0 42px 55px;
+		border: 1px solid #fff;
+		width: 100%;
+		background: url('../images/bg-info-inner.png') no-repeat center right;
+		background-size: contain;
+
+		&-text {
+			display: flex;
+			justify-content: flex-start;
+			font-size: 19px;
+			line-height: 30px;
+			padding-top: 45px;
+			>span {
+				width: 1px;
+				height: 172px;
+				background-color: #0A2037;
+				margin: 0px 65px 0px 0px;
+			}
+			
+			p {
+				max-width: 485px;
+				line-height: 30px;
+			}
+			.uppercase {
+				color: #0A2037;
+				text-transform: uppercase;
+			}
+		}
+		.tour__btn {
+			margin-left: 66px;
+		}
+
+
+	}
+}
